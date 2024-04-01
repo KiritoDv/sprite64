@@ -1,0 +1,126 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+#hpicker {
+    display: none;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    height: 40px;
+    padding: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 10px;
+}
+
+.btn {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.144);
+    border-radius: 2px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn span {
+    font-size: 10px;
+}
+
+.dropdown {
+    display: flex;
+    height: 40px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2px;
+    margin-right: 5px;
+    font-size: 12px;
+    background: rgba(255, 255, 255, 0.144);
+    border-radius: 2px;
+}
+
+.dropdown span {
+    font-size: 12px;
+}
+
+.graphics {
+    display: flex;
+    height: calc(100vh - 110px);
+    padding: 10px;
+    flex-direction: row;
+}
+
+.bar {
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    height: 100%;
+}
+
+.bar span {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.bar #offset {
+    height: 20px;
+}
+
+.bar input {
+    margin-bottom: 00px;
+}
+
+.viewers {
+    display: flex;
+    width: 550px;
+    height: 800px;
+    padding-top: 5px;
+    padding-left: 20px;
+    flex-wrap: wrap;
+}
+
+.viewer {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.viewer span {
+    font-size: 14px;
+}
+
+.custom {
+    input {
+        width: 50px;
+        text-align: center;
+    }
+}
+
+.custom #ctitle {
+    margin-right: 10px;
+}
+
+.custom #csep {
+    margin: 0 5px;
+    margin-bottom: 10px;
+}
