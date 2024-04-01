@@ -3,8 +3,8 @@ import { Color, N64Codec, N64IMode } from "./n64/n64graphics";
 
 export default class GlobalState {
     public static scale = 5;
-    public static background = Color.FromArgb(255, 255, 255, 255);
-    public static codec = N64Codec.IA8;
+    public static background = Color.FromArgb(255, 240, 240, 240);
+    public static codec = N64Codec.RGBA16;
     public static mode = N64IMode.AlphaCopyIntensity;
     public static buffer: Uint8Array = new Uint8Array(0);
     public static offset: number = 0;
